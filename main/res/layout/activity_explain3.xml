@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yuni.suhang.Explain3"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="지역별 한옥의 형태"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="북부지방 한옥의 특징"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/north"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textSize="18sp"
+            android:text="북부 지방의 구조는 양통형 집으로 마루가 없고 방들이 서로 붙어있는 것이 특징이다."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textSize="18sp"
+            android:text="춥고 눈이 많이 오는 지역이기 때문에 모든 가사작업을 실내에서 할 수 있도록 설계하였다."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textSize="18sp"
+            android:text="정주간은 부뚜막을 넓혀 방바닥과 같이 된 큰 공간으로 이곳에서 손님을 맞이하고 온 가족이 식사를 하는 공간이기도 하다."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="중부지방 한옥의 특징"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textSize="18sp"
+            android:text="일반적으로 ㄱ자형이며 남부지방의 한옥과 비교했을 때 마루가 안방과 건넌방 사이에 좁게 있고 창문이 적다."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textSize="18sp"
+            android:text="황해도 남부와 경기도, 충청도 일대의 중부지방에서는 ㄱ자형과 함께 ㅁ자형도 볼 수 있다."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textSize="18sp"
+            android:text="안방과 건넌방 사이에 대청을 두는 것이 일반적이지만, 서울지방에서는 부엌이 안방의 앞에 붙어 동서향으로 놓여있고, 다른 지방에서는 안방 옆에 붙어 남향으로 놓이는 차이가 있다."/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="남부지방 한옥의 특징"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/south"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textSize="18sp"
+            android:text="경상도와 전라도에 분포된 남부지방의 집들은 ㅡ자형으로 방,마루,부엌이 옆으로 나란히 붙어 있다."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textSize="18sp"
+            android:text="넓은 대청마루가 집의 중심에 있고, 창문과 방문이 많다는 특징이 있다."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textSize="18sp"
+            android:text="이는 더운 여름에 바람이 잘 통하도록 지어진 개방적인 구조이다."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textSize="18sp"
+            android:text="일자형 건물, 또는 ㄱ자형 건물들을 조합하여 전체적으로 안마당을 에워싸는 튼ㅁ자형 배치를 이루기도 한다."/>
+
+
+    </LinearLayout>
+
+</ScrollView>

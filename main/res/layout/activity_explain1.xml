@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yuni.suhang.Explain1"
+    android:layout_margin="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="한옥이란?"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_marginTop="25dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/hanok"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="‘한옥’은 일반적인 예상과는 달리 그리 오래된 말이 아니다. 개항 이후 서양의 근대건축양식이 우리나라에 들어오면서 새로운 건축양식과 대비하기 위하여 만들어진 신조어였다."
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="서양건축이 들어오기 전에는 일반적인 집이 모두 한옥이었으므로, ‘한옥’이라는 말이 따로 필요하지 않았다."
+                android:textSize="18sp"
+                android:layout_marginTop="7dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="근대시기 서양식 건물이 많이 지어졌던 정동길에 남아있던 기와집을 가리키는 말이 점차 용례가 증가하면서 하나의 용어가 되었다는 것이 한옥의 유래로 알려져 있다."
+                android:textSize="18sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/hanok2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="국어사전에‘한옥’이라는 단어가 처음 등장한 것은 1975년경으로 ‘우리나라 고유의 양식으로 지은 집을 양식 건물에 상대하여 부르는 말’로 정의하고 있다."
+                android:textSize="18sp"
+                android:layout_marginTop="9dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18sp"
+                android:text="‘한옥’은 한자어 ‘한(韓)’과 ‘옥(屋)’을 합하여 만든 말로서 한국의 집 또는 한민족의 집으로 이해된다."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18sp"
+                android:text="이때 ‘한’은 용어가 만들어진 시점으로 보아 좁게는 대한제국을 의미한다고 볼 수도 있다."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18sp"
+                android:text="그러나 대한제국 이후에도 계속 사용되어 온 것으로 보아 특정 왕조나 국가의 개념보다는 우리 민족 혹은 우리 민족이 정착해온 지역을 의미한다고 보는 것이 보다 합리적일 것이다."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="또‘옥’의 의미는 집이지만, 우리말에서 집이란 주택만을 의미하는 것이 아니고 건축물 일반을 총칭하는 기본적인 용어이다."
+                android:textSize="18sp"
+                android:layout_marginTop="7dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/hanok3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18sp"
+                android:text="한옥은 지역과 시대에 따른 형태적 차이가 명확하고, 그 원형을 쫓는 일도 간단하지 않다."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18sp"
+                android:text="세대를 걸쳐 계속 사용되어 왔기 때문에 크고 작은 변화가 끊이지 않았을 뿐만 아니라 오랜 역사 속에서 어디부터 한민족의 특성이 발현되는 시기로 볼 것인가도 쉽지 않은 문제이기 때문이다."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="11dp"
+                android:textSize="18sp"
+                android:text="따라서 ‘한옥’을 하나의 문장으로 정의하기는 쉽지 않은 것이다."/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

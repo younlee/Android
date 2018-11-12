@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yuni.suhang.Explain2"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="한옥의 구성"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_marginTop="25dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/gusung"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/gusung"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◎ 기와"
+            android:textSize="23sp"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textSize="18sp"
+            android:text="수키와와 암키와로 구성되며, 수키와 사이로 빠진 빗물이 암키와의 오목한 길을 따라 바깥쪽으로 흘러내려 집 안으로 새지 않게 하고 공기는 잘 통하게 하여 지붕의 목조 구조물이 썩지 않게 한다."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◎ 처마"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textSize="18sp"
+            android:text="지붕이 기둥보다 바깥쪽으로 나와 있는 부분으로, 계절에 따라 변하는 햇빛의 각도를 이용하여 여름에는 방 안으로 햇빛이 적게 들게 하고 겨울에는 많이 들게 한다."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◎ 기둥"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textSize="18sp"
+            android:text="지붕 구조물을 받쳐 집 전체의 무게를 지탱한다."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◎ 창호"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textSize="18sp"
+            android:text="창호지를 이용하여 방 안의 온도와 습도를 일정하게 유지한다."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◎ 마루"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textSize="18sp"
+            android:text="방과 방 사이를 이어 사람이 이동할 수 있게 해 주며, 건물이 직접 땅에 닿지 않게하여 땅으로부터 올라오는 습기, 먼지, 열기 등이 집 안으로 들어오지 않도록 막아 준다."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◎ 주춧돌"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textSize="18sp"
+            android:text="기둥의 밑둥을 받쳐 주어 흙에 직접 닿지 않게 함으로써 기둥이 썩지 않게 한다."/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

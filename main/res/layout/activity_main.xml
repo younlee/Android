@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yuni.suhang.Main"
+    android:orientation="vertical"
+    android:layout_marginTop="120dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="한옥이란?"
+        android:textSize="26sp"
+        android:layout_gravity="center"
+        android:onClick="tv1Click"
+        android:id="@+id/tv1"
+        android:layout_margin="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="한옥의 구성"
+        android:textSize="26sp"
+        android:layout_gravity="center"
+        android:onClick="tv2Click"
+        android:id="@+id/tv2"
+        android:layout_margin="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="지역별 한옥의 형태"
+        android:textSize="26sp"
+        android:layout_gravity="center"
+        android:onClick="tv3Click"
+        android:id="@+id/tv3"
+        android:layout_margin="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="QUIZ"
+        android:textSize="25sp"
+        android:id="@+id/Quizbtn"
+        android:onClick="QuizClick"/>
+
+</LinearLayout>
